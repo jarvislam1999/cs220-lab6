@@ -13,5 +13,5 @@ language: c
 compiler: gcc
 
 script:
-  - make -C ./hello/ all
+  - make -C hello/ all
   - ./hello/hello/
